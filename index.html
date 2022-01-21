@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="author" content="Yibo Kong">
+
+<head>
+    <style>
+body {
+  background-color: #e6e6e6;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.greeting{
+  width: 100%;
+  height: 11em;
+  line-height: 11em;
+}
+
+h1 {
+  font-family: Times New Roman, serif;
+  font-size: 3em;
+  font-weight: 200;
+  text-align: center;
+
+  margin: 0;
+}
+
+/* school link */
+a {
+  color: DodgerBlue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*'website'*/
+.basic-info{
+  background-color:white;
+  width: 68%;
+  height: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px 0px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+
+/* two sections of 'website' */
+.section{
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.basic-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* background yellow shadow of blue frame */
+.shadow{
+  margin-top: 85px;
+  background-color: #ffe6b3;
+  width: 300px;
+  height: 155px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+/* blue frame */
+.titles{
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #b3c6ff;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+/* information in blue frame*/
+.Info{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  font-style: italic;
+  font-size: 1.125em;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+    </style>
+</head>
+<body>
+<div class="greeting">
+<h1>Yibo Kong | 孔义博</h1>  
+</div>
+    <div class="basic-info">
+      <div class="webhead">
+        </div>
+        <div class="section">
+            <!--照片-->
+            <p>Personal image</p>
+        </div>
+        <div class="section">
+            <div class="shadow">
+                <div class="titles">
+                    <ul class="Info">
+                        <li>Sophomore</li>
+                        <li>Computer Sciences, B.S.</li>
+                        <li>Data Sciences, B.S.</li>
+                        <li>Mathematics, Certificate</li>
+                        <li><a href="https://www.wisc.edu/" target="_blank">
+                            University of Wisconsin - Madison</a></li>
+                        <li>ykong42@wisc.edu</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<html>
