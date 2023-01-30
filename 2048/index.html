@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>2048 game</title>
+    <meta name="author" contnet="Yibo Kong">
+    <link rel="stylesheet" type="text/css" href="2048style.css">
+    <script type="text/javascript" src="animation2048.js">
+    </script>
+    <script type="text/javascript" src="support2048.js">
+    </script>
+    <script type="text/javascript" src="main2048.js">
+    </script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+    <div class="heading">
+        <h1>2048</h1>
+        <button type="button" onclick="newGame()">New Game</button>
+        <div class="score-section">
+            <div class="score-container"> 
+                <p class="text">Score<br>
+                    <p class="score">0</p>
+                </p> <div class="animation"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <div id="gameover"> 
+            <div class="overMessage"><p>Game over!</p></div>
+            <button type="button" onclick="newGame()">Try again</button>
+        </div>
+        <div class="game-sections">             
+            <div class="section" id="section-0-0"> </div>
+            <div class="section" id="section-0-1"> </div>
+            <div class="section" id="section-0-2"> </div>
+            <div class="section" id="section-0-3"> </div>  
+            <div class="section" id="section-1-0"> </div>
+            <div class="section" id="section-1-1"> </div>
+            <div class="section" id="section-1-2"> </div>
+            <div class="section" id="section-1-3"> </div>
+            <div class="section" id="section-2-0"> </div>
+            <div class="section" id="section-2-1"> </div>
+            <div class="section" id="section-2-2"> </div>
+            <div class="section" id="section-2-3"> </div>
+            <div class="section" id="section-3-0"> </div> 
+            <div class="section" id="section-3-1"> </div>
+            <div class="section" id="section-3-2"> </div>
+            <div class="section" id="section-3-3"> </div>
+        </div>
+    </div>
+</body>
+
+</html>
